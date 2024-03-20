@@ -8,10 +8,8 @@ const Hero = () => {
         <h1>Bienvenue sur Kitchen Community</h1>
         <p>Une plateforme dédiée à la redistribution des excédents alimentaires</p>
         <p>"La solidarité alimentaire, notre passion partagée."</p>
-        <div className='button-containeur'>
-        <div className='button-dec'><button>Decouvrir</button></div>
-        <p>ou</p>
-        <div className='button-par'><button>Participer</button></div>
+        <div className='button-container'>
+          <button className='discover-button'>Découvrir</button>
         </div>
       </div>
     </div>
