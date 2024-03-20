@@ -6,7 +6,7 @@ import Hero from './hero';
 import AboutUs from './about';
 import Impact from './impact';
 import DonationsComponent from './donations';
-// import Services from './services';
+import Services from './services';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <section id='donner'>
           <DonationsComponent />
         </section>
-        {/* <Services/> */}
+        <Services/>
       </main>
       <footer>
       </footer>
