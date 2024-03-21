@@ -9,11 +9,11 @@ const Navbar = () => {
         <h1>Kitchen Community</h1>
       </div>
       <ul className="navbar-center">
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#a-propos">À Propos</a></li>
+        <li><a href="/">Accueil</a></li>
+        <li><a href="#aboutUs">À Propos</a></li>
         <li><a href="#impact">Impact</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Donner</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="/donations">Donner</a></li>
         <li><a href="#">Recevoir</a></li>
         <li><a href="#">Actualités</a></li>
       </ul>

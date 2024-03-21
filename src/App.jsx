@@ -1,11 +1,12 @@
 // MainComponent.js
 import React from 'react';
+import { Routes, Route } from "react-router-dom"
 import './App.css'
 import Navbar from './navbar';
 import Hero from './hero';
+import LoginForm from './formulaire_connection/donations';
 import AboutUs from './about';
 import Impact from './impact';
-import DonationsComponent from './donations';
 import Services from './services';
 
 function App() {
@@ -13,21 +14,18 @@ function App() {
     <div className="MainComponent">
       <header>
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
       </header>
       <main>
-        <section id="a-propos">
-          <AboutUs />
-        </section>
-        <section id='impact'>
-          <Impact />
-        </section>
-        <section id='donner'>
-          <DonationsComponent />
-        </section>
-        <Services/>
+        <Routes>
+          <Route path='/' element={<Hero />} />
+          <Route path='/donations' element={<LoginForm />} />
+          {/* <Route path='/recevoir' element={<Recevoir />} />
+          <Route path='/connexion' element={<Connexion />} /> */}
+        </Routes>
       </main>
       <footer>
+        {/* <h2 style={{ background: "blue" }}>Footer</h2> */}
       </footer>
     </div>
   );

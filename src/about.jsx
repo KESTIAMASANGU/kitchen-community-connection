@@ -5,7 +5,8 @@ import mainImg from './images/main.png'
 
 function AboutUs() {
     return (
-        <div className='about-us-container'>
+        <section id="aboutUs">
+         <div className='about-us-container'>
             <div className='about-us-content'>
                 <h2 className='about-us-title'>À Propos</h2>
                 <p className='about-us-paragraph'>Notre plateforme facilite la redistribution des excédents alimentaires à Lubumbashi. Les établissements alimentaires peuvent faire don de leurs surplus, tandis que les organisations caritatives locaux les récupèrent pour aider les personnes dans le besoin.</p>
@@ -19,6 +20,7 @@ function AboutUs() {
             </div>
             
         </div>
+        </section>
     );
 }   
 export default AboutUs;

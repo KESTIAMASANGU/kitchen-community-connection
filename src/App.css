@@ -75,7 +75,10 @@ body {
   color: white;
 }
 
-
+.hero_accueil {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
 
 .hero-image {
   background-image: url('./images/header.png');

@@ -1,8 +1,12 @@
 import React from 'react';
+import AboutUs from './about';
+import Impact from './impact';
+import Services from './services';
 
 const Hero = () => {
   return (
-    <div className="hero-image">
+    <div className='hero_accueil'>
+      <div className="hero-image">
       <div><img src="./images/header.png" alt="" /></div>
       <div className="hero-text">
         <h1>Bienvenue sur Kitchen Community</h1>
@@ -12,6 +16,10 @@ const Hero = () => {
           <button className='discover-button'>Découvrir</button>
         </div>
       </div>
+    </div>
+    <AboutUs />
+    <Impact />
+    <Services />
     </div>
   );
 }
