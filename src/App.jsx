@@ -5,6 +5,8 @@ import './App.css'
 import Navbar from './navbar';
 import Hero from './hero';
 import LoginForm from './formulaire_connection/donations';
+import  FoodReceptionForm from './formulaire_connection/Receptions';
+
 import AboutUs from './about';
 import Impact from './impact';
 import Services from './services';
@@ -20,8 +22,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Hero />} />
           <Route path='/donations' element={<LoginForm />} />
-          {/* <Route path='/recevoir' element={<Recevoir />} />
-          <Route path='/connexion' element={<Connexion />} /> */}
+          <Route path='/Receptions' element={<FoodReceptionForm />} />
+          {/* <Route path='/connexion' element={<Connexion />} /> */}
         </Routes>
       </main>
       <footer>

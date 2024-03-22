@@ -14,7 +14,7 @@ const Navbar = () => {
         <li><a href="#impact">Impact</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="/donations">Donner</a></li>
-        <li><a href="#">Recevoir</a></li>
+        <li><a href="/Receptions">Recevoir</a></li>
         <li><a href="#">Actualités</a></li>
       </ul>
       <div className="navbar-right">
