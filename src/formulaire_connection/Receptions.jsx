@@ -54,10 +54,6 @@ function FoodReceptionForm() {
                     {errors.receiverName && <span className="error">{errors.receiverName}</span>}
                 </div>
                 <div className="input-group">
-                    <label htmlFor="organization">Nom de l'Organisation Caritative (si applicable):</label>
-                    <input type="text" id="organization" name="organization" value={formData.organization} onChange={handleChange} />
-                </div>
-                <div className="input-group">
                     <label htmlFor="foodType">Type de Nourriture:</label>
                     <input type="text" id="foodType" name="foodType" value={formData.foodType} onChange={handleChange} required />
                 </div>

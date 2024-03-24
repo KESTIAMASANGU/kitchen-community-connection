@@ -9,11 +9,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: rgb(41, 40, 40); 
-   color: white;
-   height: 60px;
-   position: sticky ;
-   top: 10px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  height: 60px;
+  position: sticky;
+  top: 10px;
 }
 
 .navbar-left h1 {
@@ -119,15 +119,15 @@ body {
 }
 
 .discover-button {
-  background-color: #FF7511; 
-  color: white; 
+  background-color: #FF7511;
+  color: white;
   border: none;
-  border-radius: 5px; 
-  font-size: 16px; 
-  cursor: pointer; 
-  width: 200px; 
-  height: 50px; 
-  line-height: 50px; 
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
 }
 
 .discover-button:hover {
@@ -171,11 +171,12 @@ body {
 }
 
 .about-us-title {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .about-us-paragraph {
-  font-size: 1rem;
+  font-size: 25px;
+  text-align: justify;
 }
 
 .about-us-image img {
@@ -185,10 +186,11 @@ body {
   justify-content: space-around;
 }
 
-.about-us-image {
+.about-us-image2 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 25%;
+  width: 900px;
+  margin-bottom: 60px;
 }
 
 .impact-container {
@@ -205,49 +207,65 @@ body {
   margin-left: 49%;
   margin-bottom: -420px;
   width: 45%;
-    height: 540px; 
-    order: 2; 
-    /* overflow: hidden;  */
-    position: relative;
+  height: 540px;
+  order: 2;
+  overflow: hidden;
+  position: relative;
 }
 
 .progress-bar {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #A3CE47;
   margin-bottom: 10px;
   border-radius: 5px;
+  margin-top: 90px;
 }
 
 .progress {
-  background-color: #1E90FF;
+  background-color: #FF7511;
   color: white;
   padding: 10px;
   border-radius: 5px;
 }
 
+.progress-title {
+  color: white;
+  margin-top: 35px;
+}
+
+
 .impact-content {
-  height: 500px;
-  width: 700px;
+  height: 400px;
+  width: 800px;
   order: 1;
-  background-color: #0E4414; 
-  margin-left: 10%;
+  background-color: #0E4414;
+  margin-left: 5%;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .impact-title {
-  font-size: 24px;
-  margin-bottom: 10px;
+  padding-left: 40px;
+  font-size: 40px;
+  margin-top: 80px;
+
 }
 
 .impact-content p {
-  font-size: 16px;
+  font-size: 25px;
+  padding-bottom: 55px;
+  padding-left: 30px;
+
 }
 
 .impact-text {
   background-color: #000;
   color: #fff;
   padding: 20px;
-  margin-top: 20px; 
+  margin-bottom: 100px;
   border-radius: 5px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .services-container {
@@ -263,26 +281,39 @@ body {
 }
 
 .service-description {
-  background-color: #0E4414; 
-  color: #fff; 
+  background-color: #0E4414;
+  color: #fff;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
 }
+.services-container2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 
-.service-item:nth-child(4),
-.service-item:nth-child(5) {
-  justify-content: center;
+}
+.service-item1,
+.service-item2 {
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 180px;
 
 }
 
+.services-title {
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+}
 
 .container {
   width: 40%;
-  margin-top: 80px ;
+  margin-top: 80px;
   margin-left: 500px;
   padding: 20px;
-  background-color: #0E4414 ;
+  background-color: #0E4414;
   color: #D3D3D3;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -313,7 +344,7 @@ body {
 }
 
 .input-group textarea {
-  height: 100px; 
+  height: 100px;
 }
 
 .error {
@@ -371,7 +402,7 @@ button:hover {
 }
 
 .input-group textarea {
-  height: 100px; 
+  height: 100px;
 }
 
 .error {
