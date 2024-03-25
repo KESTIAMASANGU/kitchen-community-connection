@@ -19,7 +19,6 @@ const Navbar = () => {
       </ul>
       <div className="navbar-right">
         <button>Connexion</button>
-        <button>Contact</button>
       </div>
     </nav>
 
