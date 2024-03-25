@@ -5,6 +5,7 @@ import Navbar from './navbar';
 import Hero from './hero';
 import LoginForm from './formulaire_connection/donations';
 import  FoodReceptionForm from './formulaire_connection/Receptions';
+import Footer from './footer'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           {/* <Route path='/connexion' element={<Connexion />} /> */}
         </Routes>
       </main>
-      <footer/>
+      <Footer/>
     </div>
   );
 }

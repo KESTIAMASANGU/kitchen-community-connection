@@ -2,7 +2,6 @@ import React from 'react';
 import AboutUs from './about';
 import Impact from './impact';
 import Services from './services';
-
 const Hero = () => {
   return (
     <div className='hero_accueil'>

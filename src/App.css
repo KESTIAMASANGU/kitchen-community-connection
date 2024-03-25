@@ -371,7 +371,7 @@ button:hover {
   margin-top: 80px;
   margin-left: 500px;
   padding: 20px;
-  background-color: #0E4414;
+  background-color: #000;
   color: #D3D3D3;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -421,4 +421,56 @@ button {
 
 button:hover {
   background-color: #FF9F55;
+}
+
+.footer {
+  background-color: #000;
+  color: #FF7511;
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__navigation,
+.footer__contact,
+.footer__social,
+.footer__newsletter {
+  flex: 1;
+}
+
+.footer__navigation ul,
+.footer__social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__navigation ul li,
+.footer__social ul li {
+  margin-bottom: 10px;
+}
+
+.footer__newsletter input[type="email"],
+.footer__newsletter button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer__legal {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer__legal a {
+  color: #FF7511;
+  text-decoration: none;
+}
+
+.footer__legal a:hover {
+  text-decoration: underline;
 }
