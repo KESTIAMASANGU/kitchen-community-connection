@@ -23,7 +23,7 @@ function Footer() {
                     <h3>Réseaux Sociaux</h3>
                     <ul>
                         <li><a href="https://facebook.com/Kestia Ngoie" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                        <li><a href="https://twitter.com/Kestia Ngoie" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                        <li><a href="https://twitter.com/Kestia Masangu" target="_blank" rel="noopener noreferrer">Twitter</a></li>
                         <li><a href="https://instagram.com/Kestia Ngoie" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                     </ul>
                 </div>
