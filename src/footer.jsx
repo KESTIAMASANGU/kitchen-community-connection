@@ -27,13 +27,6 @@ function Footer() {
                         <li><a href="https://instagram.com/Kestia Ngoie" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                     </ul>
                 </div>
-                <div className="footer__newsletter">
-                    <h3>Newsletter</h3>
-                    <form action="#" method="post">
-                        <input type="email" name="email" placeholder="Entrez votre email" required />
-                        <button type="submit">S'abonner</button>
-                    </form>
-                </div>
             </div>
             <div className="footer__legal">
                 <p><a href="/politique-de-confidentialite">Politique de Confidentialité</a> | <a href="/conditions-utilisation">Conditions d'Utilisation</a></p>

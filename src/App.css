@@ -423,54 +423,50 @@ button:hover {
   background-color: #FF9F55;
 }
 
-/* .footer {
-  background-color: #000;
+.footer {
+  background-color: #0E4414;
   color: #FF7511;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .footer__navigation,
 .footer__contact,
-.footer__social,
-.footer__newsletter {
-  flex: 1;
+.footer__social {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
 }
 
 .footer__navigation ul,
 .footer__social ul {
-  list-style: none;
   padding: 0;
+  list-style: none;
 }
 
-.footer__navigation ul li,
-.footer__social ul li {
+.footer__navigation li,
+.footer__social li {
   margin-bottom: 10px;
 }
 
-.footer__newsletter input[type="email"],
-.footer__newsletter button {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 5px;
+.footer__contact p {
+  margin: 5px 0;
 }
 
 .footer__legal {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
+}
+
+.footer__legal p {
+  margin: 5px 0;
 }
 
 .footer__legal a {
   color: #FF7511;
-  text-decoration: none;
 }
-
-.footer__legal a:hover {
-  text-decoration: underline;
-} */
