@@ -272,6 +272,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  margin-bottom: 20px;
 }
 
 .service-item {
@@ -291,7 +292,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-
+margin-bottom: 30px;
 }
 .service-item1,
 .service-item2 {
@@ -316,7 +317,7 @@ body {
   background-color: #0E4414;
   color: #D3D3D3;
   border-radius: 10px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container h2 {
@@ -423,7 +424,7 @@ button:hover {
   background-color: #FF9F55;
 }
 
-.footer {
+/* .footer {
   background-color: #0E4414;
   color: #FF7511;
   padding: 40px 0;
@@ -469,4 +470,4 @@ button:hover {
 
 .footer__legal a {
   color: #FF7511;
-}
+} */

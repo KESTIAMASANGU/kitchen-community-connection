@@ -4,8 +4,9 @@ import './App.css'
 import Navbar from './navbar';
 import Hero from './hero';
 import LoginForm from './formulaire_connection/donations';
-import  FoodReceptionForm from './formulaire_connection/Receptions';
-import Footer from './footer'
+import FoodReceptionForm from './formulaire_connection/Receptions';
+import InscriptionForm from './Inscription';
+// import Footer from './footer'
 
 function App() {
   return (
@@ -15,14 +16,14 @@ function App() {
         {/* <Hero /> */}
       </header>
       <main>
-        <Routes>
+        <Routes>        
+            <Route path='/Inscription' element={<InscriptionForm />} />
           <Route path='/' element={<Hero />} />
           <Route path='/donations' element={<LoginForm />} />
           <Route path='/Receptions' element={<FoodReceptionForm />} />
-          {/* <Route path='/connexion' element={<Connexion />} /> */}
         </Routes>
       </main>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

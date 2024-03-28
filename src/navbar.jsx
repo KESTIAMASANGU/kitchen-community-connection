@@ -1,7 +1,7 @@
 // Navbar.js
 
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -18,7 +18,7 @@ const Navbar = () => {
         <li><a href="#">Actualités</a></li>
       </ul>
       <div className="navbar-right">
-        <button>Connexion</button>
+        <Link to="/Inscription"><button>Inscription</button></Link>
       </div>
     </nav>
 
