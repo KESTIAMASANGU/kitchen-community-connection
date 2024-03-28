@@ -40,9 +40,8 @@ function InscriptionForm() {
 
   return (
     <div>
-      <h2>Inscription à Kitchen Community</h2>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div >
           <label htmlFor="email">E-mail :</label><br />
           <input type="email" id="email" value={email} onChange={handleEmailChange} required />
           {errorEmail && <div style={{ color: 'red' }}>{errorEmail}</div>}
@@ -53,7 +52,7 @@ function InscriptionForm() {
           {errorPassword && <div style={{ color: 'red' }}>{errorPassword}</div>}
         </div>
         <br />
-        <input type="submit" value="Inscription" />
+        <input type="submit" value="se connecter" />
       </form>
     </div>
   );
