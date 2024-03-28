@@ -18,7 +18,8 @@ const Navbar = () => {
         <li><a href="#">Actualités</a></li>
       </ul>
       <div className="navbar-right">
-        <Link to="/Inscription"><button>Inscription</button></Link>
+      <Link to="/Inscription"><button>Inscription</button></Link>
+        <Link to="/Connexion"><button>Connexion</button></Link>
       </div>
     </nav>
 
